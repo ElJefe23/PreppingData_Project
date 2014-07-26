@@ -2,6 +2,13 @@
 
 This dictionary describes the data variables contained in tidyData.txt.
 
+The data in this file are derived from raw, 3-axial accelerometer and gyroscope signals obtained from 30 subjects undertaking 6 activities. These time domain signals (prefixed 'Time' in the processed data) were captured at a constant rate of 50 Hz. The raw data were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The processed acceleration signal was then separated into body and gravity acceleration signals (Body and Gravity along each axis) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+The body linear acceleration and angular velocity (gyroscopic readings) were derived in time to obtain Jerk signals along each axis. The magnitude of these three-dimensional signals were calculated using the Euclidean norm.  A Fast Fourier Transform (FastFourXform) was applied to some of these signals to produce data in the frequency domain.
+
+The datafile tidyData.txt was created by initially selecting only the mean and standard deviations of each processed data type.  The average of each mean and standard deviation was then calculated for each data type, specific for each subject and activity.  These averages are reported in tidyData.txt.
+
+##Variables in tidyData.txt
 
 **SubjID** – Integer
 
@@ -16,7 +23,7 @@ This dictionary describes the data variables contained in tidyData.txt.
     Activity subject was undertaking when data was collected.
 
 
-##The remaining variables are all numeric and normalized to the range of -1 to 1.
+###The remaining variables are all numeric and normalized to the range of -1 to 1.
 
 
 **1.-3. TimeBodyAccelerometer.MeanInX, TimeBodyAccelerometer.MeanInY, TimeBodyAccelerometer.MeanInZ**

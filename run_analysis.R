@@ -77,8 +77,8 @@ betterCols<-gsub("tGravity","TimeGravity",betterCols)
 betterCols<-gsub("Acc","Accelerometer",betterCols)
 betterCols<-gsub("Gyro","Gyroscope",betterCols)
 betterCols<-gsub("Mag","Magnitude",betterCols)
-betterCols<-gsub("std..","StandDev",betterCols)
-betterCols<-gsub("mean..","Mean",betterCols)
+betterCols<-gsub(".std..","StandDev",betterCols)
+betterCols<-gsub(".mean..","Mean",betterCols)
 ## That was really hack-tacular, but this makes the column names obnoxiously descriptive.
 ## Set the actual column names to betterCols.
 colnames(tidier)<-betterCols

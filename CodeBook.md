@@ -119,7 +119,7 @@ Average of the standard deviation of the time derivative of the Fourier transfor
 Average of the mean values of the Fourier transform of the gyroscopic readings, decomposed into motion along the X, Y, and Z axes.
 
 
-**56.-58. FastFourXformBodyGyroscope.StandDevInX, FastFourXformBodyGyroscope.StandDevInY, FastFourXformBodyGyroscope.StandDevInZ **
+**56.-58. FastFourXformBodyGyroscope.StandDevInX, FastFourXformBodyGyroscope.StandDevInY, FastFourXformBodyGyroscope.StandDevInZ**
 Average of the standard deviation of the Fourier transform of the gyroscopic readings, decomposed into motion along the X, Y, and Z axes.
 
 
@@ -135,11 +135,11 @@ Average of the standard deviation of the magnitude of the Fourier transform of t
 Average of the mean of the time derivative of the magnitude of the Fourier transform of the time-domain acceleration due to body motion.
 
 
-**62. FastFourXformBodyAccelerometerJerkMagnitude.StandDev **
+**62. FastFourXformBodyAccelerometerJerkMagnitude.StandDev**
 Average of the standard deviation of the time derivative of the Fourier transform of the magnitude of the time-domain acceleration due to body motion.
 
 
-**63. FastFourXformBodyGyroscopeMagnitude.Mean **
+**63. FastFourXformBodyGyroscopeMagnitude.Mean**
 Average of the mean of the magnitude of the Fourier transform of the gyroscopic readings.
 
 
